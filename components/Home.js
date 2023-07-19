@@ -3,7 +3,6 @@ import Image from 'next/image'
 import Image01 from "../public/Image01.PNG"
 import Image02 from "../public/Image02.PNG"
 import Navbar from './Navbar'
-
 import Image06 from "../public/Image06.PNG"
 import Image04 from "../public/Image04.png"
 
