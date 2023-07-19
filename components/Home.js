@@ -5,6 +5,7 @@ import Image02 from "../public/Image02.PNG"
 import Image06 from "../public/Image06.PNG"
 import Image04 from "../public/Image04.PNG"
 import Navbar from './Navbar'
+import Link from 'next/link'
 
 
 const Home = () => {
@@ -28,9 +29,9 @@ const Home = () => {
       Azure OpenAI to Boost Enterprise<br/>
       Knowledge Search</p>
       <div className=" border-2 w-48 mt-16 ml-8">
-        <h3 className="text-white py-3 text-center font-medium text-xl">
+        <Link className="text-white py-3 text-center font-medium text-xl">
         Know More
-        </h3>
+        </Link>
       </div>
       </div>
   </div> 
@@ -45,9 +46,9 @@ const Home = () => {
       Azure OpenAI to Boost Enterprise<br/>
       Knowledge Search</p>
       <div className=" border-2 w-48 mt-16 ml-8">
-        <h3 className="text-white py-3 text-center font-medium text-xl">
+        <Link className="text-white py-3 text-center font-medium text-xl">
         Know More
-        </h3>
+        </Link>
       </div>
       </div>
   </div> 
@@ -62,9 +63,9 @@ const Home = () => {
      in the HFS Horizons: Supply Chain<br/>
      Services,2023 Report</p>
       <div className=" border-2 text-xl w-48 mt-16 ml-8">
-        <h3 className="text-white py-3 text-center font-medium ">
+        <Link className="text-white py-3 text-center font-medium ">
         Know More
-        </h3>
+        </Link>
       </div>
       </div>
   </div> 
@@ -79,9 +80,9 @@ const Home = () => {
       Azure OpenAI to Boost Enterprise<br/>
       Knowledge Search</p>
       <div className=" border-2 text-xl w-48 mt-16 ml-8">
-        <h3 className="text-white py-3 text-center font-medium ">
+        <Link className="text-white py-3 text-center font-medium ">
         Know More
-        </h3>
+        </Link>
       </div>
       </div>
   </div>
