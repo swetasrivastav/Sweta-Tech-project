@@ -3,8 +3,8 @@ import Image from 'next/image'
 import Image01 from "../public/Image01.PNG"
 import Image02 from "../public/Image02.PNG"
 import Navbar from './Navbar'
-import Image06 from "../public/Image06.PNG"
-import Image04 from "../public/Image04.png"
+//import Image06 from "../public/Image06.PNG"
+//import Image04 from "../public/Image04.png"
 
 
 const Home = () => {
@@ -47,7 +47,7 @@ const Home = () => {
       </div>
       </div>
   </div> 
-  <div id="slide3" className="carousel-item relative w-full">
+  {/* <div id="slide3" className="carousel-item relative w-full">
   <Image src={Image06} alt="Picture background" className="w-full" />
 
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -64,8 +64,8 @@ const Home = () => {
         </h2>
       </div>
       </div>
-  </div> 
-  <div id="slide4" className="carousel-item relative w-full">
+  </div>  */}
+  {/* <div id="slide4" className="carousel-item relative w-full">
   <Image src={Image04} alt="background image" className="w-full" />
 
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -82,7 +82,7 @@ const Home = () => {
         </h2>
       </div>
       </div>
-  </div>
+  </div> */}
 </div>
     
       <div className='absolute top-8'>
