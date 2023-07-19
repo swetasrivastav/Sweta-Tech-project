@@ -10,6 +10,7 @@ const Navbar = () => {
   return (
 
     <div className="navbar">
+      {/* mobile */}
     <div className="navbar-start">
       <div className="dropdown">
         <label tabIndex={0} className="btn btn-ghost lg:hidden text-white">
@@ -189,9 +190,8 @@ const Navbar = () => {
       </div>
       </ul>
   </div>
- 
+ </div>
 </div>
-        </div>
   </div>
   )
 }

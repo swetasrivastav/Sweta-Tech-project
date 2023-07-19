@@ -2,10 +2,10 @@ import React from 'react'
 import Image from 'next/image'
 import Image01 from "../public/Image01.PNG"
 import Image02 from "../public/Image02.PNG"
-import Image06 from "../public/Image06.PNG"
-import Image04 from "../public/Image04.PNG"
 import Navbar from './Navbar'
 import Link from 'next/link'
+import Image06 from "../public/Image06.PNG"
+import Image04 from "../public/Image04.png"
 
 
 const Home = () => {
@@ -13,11 +13,7 @@ const Home = () => {
     <>
     
     <div className='relative h-full'>
-  
-  
-
-
-<div className="carousel w-full">
+  <div className="carousel w-full">
   <div id="slide1" className="carousel-item relative w-full ">
   <Image src={Image01} alt="Picture of background" className="w-full" />
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -29,9 +25,9 @@ const Home = () => {
       Azure OpenAI to Boost Enterprise<br/>
       Knowledge Search</p>
       <div className=" border-2 w-48 mt-16 ml-8">
-        <Link className="text-white py-3 text-center font-medium text-xl">
+        <h2 className="text-white py-3 text-center font-medium text-xl">
         Know More
-        </Link>
+        </h2>
       </div>
       </div>
   </div> 
@@ -46,9 +42,9 @@ const Home = () => {
       Azure OpenAI to Boost Enterprise<br/>
       Knowledge Search</p>
       <div className=" border-2 w-48 mt-16 ml-8">
-        <Link className="text-white py-3 text-center font-medium text-xl">
+        <h2 className="text-white py-3 text-center font-medium text-xl">
         Know More
-        </Link>
+        </h2>
       </div>
       </div>
   </div> 
@@ -63,9 +59,9 @@ const Home = () => {
      in the HFS Horizons: Supply Chain<br/>
      Services,2023 Report</p>
       <div className=" border-2 text-xl w-48 mt-16 ml-8">
-        <Link className="text-white py-3 text-center font-medium ">
+        <h2 className="text-white py-3 text-center font-medium ">
         Know More
-        </Link>
+        </h2>
       </div>
       </div>
   </div> 
@@ -80,9 +76,9 @@ const Home = () => {
       Azure OpenAI to Boost Enterprise<br/>
       Knowledge Search</p>
       <div className=" border-2 text-xl w-48 mt-16 ml-8">
-        <Link className="text-white py-3 text-center font-medium ">
+        <h2 className="text-white py-3 text-center font-medium ">
         Know More
-        </Link>
+        </h2>
       </div>
       </div>
   </div>
